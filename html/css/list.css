@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* content部分 */
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* form */
+.content form {
+    background: #fff;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
+.form-boxOne,
+.form-boxTwo {
+    display: flex;
+    align-items: center;
+}
+
+.form-boxTwo .button-box {
+    width: 31%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+form .form-title {
+    width: 7%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+}
+
+.content form .form-boxOne .form-boxOne-inputOne {
+    width: 62%;
+    margin-right: 8px;
+}
+
+.content form .form-boxOne .form-boxOne-inputTwo {
+    width: 25%;
+    background: #f5f5f5;
+    border: 1px solid #dedcdc;
+    height: 30px;
+}
+
+.content form input {
+    background: #f5f5f5;
+    border: 1px solid #dedcdc;
+    height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.content form .form-boxTwo {
+    margin-top: 20px;
+}
+
+.form-boxTwo-i {
+    width: 2%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #ccc;
+}
+
+.content form .form-boxTwo .form-boxTwo-inputOne {
+    width: 29%;
+}
+
+.form-boxTwo button {
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-boxTwo-find {
+    margin-right: 2%;
+    background: #f87603;
+    color: #ffffff;
+}
+
+.form-boxTwo-del {
+    border: 1px solid #3598db;
+    color: #333333;
+}
+
+/* table */
+.content table {
+    border-top: 0;
+    border: 1px solid #dee3e6;
+    background: #fff;
+}
+
+/* tr */
+.content table tr {
+    height: 40px;
+}
+
+.content table tr:nth-child(1) {
+    background: #f5fafd;
+}
+
+/* th */
+
+.content table tr th {
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.content table tr th:first-child {
+    width: 40px;
+}
+
+.content table tr th:first-child {
+    width: 40px;
+}
+
+.content table tr th.active {
+    width: 140px;
+}
+
+.content table tr th.actives {
+    width: 100px;
+}
+
+.content table tr th.act {
+    width: 80px;
+}
+
+/* td */
+
+.content table tr.red td,
+.content table tr.red td a {
+    color: red !important;
+    font-size: 15px!important;
+}
+
+.content table tr td {
+    height: 40px;
+    font-size: 13px;
+    text-align: center;
+}
+/* 分页 */
+
+.content .paging {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+}
+
+.content .paging .paging-list {
+    height: 30px;
+    margin: 25px auto 0;
+    align-items: center;
+    display: inline-block;
+}
+
+.content .paging .paging-i {
+    width: 30px;
+    height: 30px;
+    background: #f5f5f5;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    float: left;
+    margin: 0 5px;
+}
+
+.content .paging .total {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+
+.content .paging .paging-i:hover {
+    background: #f87603;
+    color: white;
+    cursor: pointer;
+}
+
+.content .paging .paging-i.active {
+    background: #f87603;
+    color: white;
+}
+
+.content .paging .paging-i:nth-last-child(2) {
+    width: 60px;
+}
+
+/* power 采购项目一览table操作 */
+
+table tr td .imgsOne {
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+table tr td .imgsTwo {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+/* group 采购项目一览table操作 */
+
+table tr td .inline-block {
+    display: inline-block;
+}
+
+.button-margin {
+    margin-left: 20px;
+}
+
+/* group 竞价项目一览table操作 */
+
+.content table tr th.activest {
+    width: 190px;
+}
+
+.content table tr td.center {
+    height: 40px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.content table tr th.groupactive {
+    width: 120px;
+}
+
+/* group 电厂一览table操作 */
+
+.content table tr th.dianchangActive {
+    width: 100px;
+}
+
+/* group 发布信息,联络消息一览from */
+
+.release-form-boxTwo-inputOne {
+    width: 146px;
+}
+
+.form-title.activeName {
+    margin-left: 5px;
+}
+
+.release-ridio {
+    display: flex;
+    align-items: center;
+}
+
+.release-ridio-i {
+    margin-left: 55px;
+}
+
+.form-title.active {
+    width: 100px;
+    text-align: right;
+}
+
+.release-span {
+    padding-left: 8px;
+}
+
+/* group 发布信息一览table */
+
+.content table tr th.releaseActive {
+    width: 150px;
+}
+
+/* supplier */
+
+.supplier {
+    width: 25%;
+    background: #f5f5f5;
+    border: 1px solid #dedcdc;
+    height: 30px;
+}
+
+.supplier-form-boxTwo-inputOne {
+    width: 12%;
+}
+
+.supplier-form-title {
+    padding-left: 20px;
+}
+
+.supplier-span {
+    padding: 0 20px 0 10px;
+}
+
+.supplier-active {
+    width: 100px;
+}
+
+.status-active {
+    width: 60px;
+}
+
+.price-active {
+    width: 130px;
+}
+
+.text-decoration {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* 保证金ensure */
+
+.ensure {
+    width: 57%;
+    margin-right: 8px;
+}
+
+.ensurePrice {
+    width: 82px;
+    text-align: center;
+}
+
+.ensure-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ensure-form-boxTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ensure-form-boxTwo-inputOne {
+    width: 13%;
+}
+
+.ensure-active {
+    width: 200px;
+}
+
+.text-decoration span:first-child {
+    padding-right: 10px;
+}
+
+/* 供应商 */
+/* supply */
+
+.supply {
+    width: 25%;
+    background: #f5f5f5;
+    border: 1px solid #dedcdc;
+    height: 30px;
+}
+
+.supply-form-boxTwo-inputOne {
+    width: 13.5%;
+}
+
+.supply-active {
+    width: 110px;
+}
+
+.supply-status {
+    width: 90px;
+}
+
+/* 结算 */
+
+.settlement-active {
+    width: 100px;
+}
+
+.settlement-time {
+    width: 140px;
+}
+
+.settlement-name {
+    width: 200px;
+}
