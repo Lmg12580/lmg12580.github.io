@@ -1,0 +1,44 @@
+{
+  "id": "2226292",
+  "name": "project",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1235390",
+      "name": "小喇叭",
+      "font_class": "xiaolaba1",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "1183130",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "4670125",
+      "name": "认识职业",
+      "font_class": "renshizhiye",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "4867111",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "5152785",
+      "name": "姓名",
+      "font_class": "xingming",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}
